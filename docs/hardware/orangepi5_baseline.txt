@@ -1,0 +1,52 @@
+===== DATE =====
+Mon Sep  7 02:21:14 PM CST 2026
+===== MODEL =====
+Orange Pi 5
+===== KERNEL =====
+Linux orangepi5 6.1.99-rockchip-rk3588 #1.2.4 SMP Thu Aug 20 08:59:18 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux
+===== OS =====
+PRETTY_NAME="Orange Pi 1.2.4 Jammy"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+===== ARCH =====
+aarch64
+===== CPU =====
+Architecture:                         aarch64
+CPU op-mode(s):                       32-bit, 64-bit
+Byte Order:                           Little Endian
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            ARM
+Model name:                           Cortex-A55
+Model:                                0
+Thread(s) per core:                   1
+Core(s) per socket:                   4
+Socket(s):                            1
+Stepping:                             r2p0
+===== MEM =====
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       180Mi       7.0Gi       0.0Ki       312Mi       7.2Gi
+Swap:          3.8Gi          0B       3.8Gi
+===== DISK =====
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           769M  544K  768M   1% /run
+/dev/mmcblk1p1   29G  2.3G   27G   8% /
+tmpfs           3.8G     0  3.8G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           3.8G  4.0K  3.8G   1% /tmp
+/dev/zram1      188M   25M  149M  15% /var/log
+tmpfs           769M     0  769M   0% /run/user/1000
+===== BLOCK =====
+NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+mtdblock0    31:0    0   16M  0 disk 
+mmcblk1     179:0    0 29.7G  0 disk 
+└─mmcblk1p1 179:1    0 29.4G  0 part /var/log.hdd
+                                     /
+zram0       254:0    0  3.8G  0 disk [SWAP]
+zram1       254:1    0  200M  0 disk /var/log
+===== IP =====
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    inet 192.168.137.128/24 brd 192.168.137.255 scope global dynamic noprefixroute eth0

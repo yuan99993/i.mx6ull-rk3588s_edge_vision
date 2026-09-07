@@ -30,3 +30,8 @@ Makefile
 # Misc
 *.log
 core
+
+# System images (local working files)
+linux_source_image/
+*.7z
+*.img
