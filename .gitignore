@@ -1,0 +1,32 @@
+# Build
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.so.*
+
+# Qt
+moc_*
+*.moc
+qrc_*
+ui_*
+Makefile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Model / data
+*.rknn
+*.onnx
+*.pt
+*.yuv
+*.jpg
+*.png
+!docs/**/*.png
+
+# Misc
+*.log
+core
